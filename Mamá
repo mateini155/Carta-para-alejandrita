@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta para Mamá</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fff8f0;
+      color: #333;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    .carta {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #c44;
+    }
+    .imagen-superior,
+    .imagen-inferior {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .imagen-superior img,
+    .imagen-inferior img {
+      max-width: 150px;
+      height: auto;
+    }
+    .firma {
+      margin-top: 40px;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <div class="imagen-superior">
+      <img src="https://cdn.pixabay.com/photo/2021/05/09/10/08/flowers-6240271_960_720.png" alt="Ramo de flores">
+    </div>
+    <h1>Feliz Día de las Madres</h1>
+    <p>Querida Mamá:</p>
+    <p>
+      Hoy quiero aprovechar este día tan especial para decirte cuánto te amo y agradecerte por todo lo que has hecho por mí. 
+      Gracias por tu paciencia infinita, tu amor incondicional y tu fortaleza, que siempre me inspira a seguir adelante.
+    </p>
+    <p>
+      Eres mi guía, mi apoyo y mi ejemplo. No hay palabras suficientes para expresar todo lo que significas para mí. 
+      Solo quiero que sepas que cada día me siento afortunado de tenerte como madre.
+    </p>
+    <p>¡Feliz Día de las Madres! Que este día esté lleno del amor y la felicidad que tanto mereces.</p>
+    <div class="firma">
+      Con todo mi cariño,<br>
+      <strong>Tu hijo Mateo</strong>
+    </div>
+    <div class="imagen-inferior">
+      <img src="https://cdn.pixabay.com/photo/2013/07/13/12/44/heart-160825_960_720.png" alt="Corazón">
+    </div>
+  </div>
+</body>
+</html>
